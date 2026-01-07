@@ -1,0 +1,55 @@
+{
+    "target": "scanme.nmap.org",
+    "ports": [
+        22,
+        25,
+        80,
+        135,
+        139,
+        445,
+        9929,
+        31337
+    ],
+    "services": {
+        "22": {
+            "name": "ssh",
+            "product": "OpenSSH",
+            "version": "6.6.1p1 Ubuntu 2ubuntu2.13"
+        },
+        "25": {
+            "name": "tcpwrapped",
+            "product": "",
+            "version": ""
+        },
+        "80": {
+            "name": "http",
+            "product": "Apache httpd",
+            "version": "2.4.7"
+        },
+        "135": {
+            "name": "msrpc",
+            "product": "",
+            "version": ""
+        },
+        "139": {
+            "name": "netbios-ssn",
+            "product": "",
+            "version": ""
+        },
+        "445": {
+            "name": "microsoft-ds",
+            "product": "",
+            "version": ""
+        },
+        "9929": {
+            "name": "nping-echo",
+            "product": "Nping echo",
+            "version": ""
+        },
+        "31337": {
+            "name": "tcpwrapped",
+            "product": "",
+            "version": ""
+        }
+    }
+}
