@@ -1,2 +1,4 @@
 python-nmap
 requests
+Ollama
+deepseek-r1
